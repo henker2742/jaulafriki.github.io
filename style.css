@@ -1,0 +1,574 @@
+body {
+background:  url(https://conexionmigrante.com/wp-content/uploads/2019/08/Guardias-son-acusados-de-distribuir-metanfetamina-en-una-prisi%C3%B3n-de-Oklahoma.jpg);
+  background-attachment: fixed;
+    background-size: cover;
+  margin: 0px;
+}
+
+/* menu de opciones */
+
+#nav_bar {
+  background: rgba(255,255,255, 0.4);
+  padding: 0px;
+
+  width: 100%;
+  top: 0px;
+  text-align: center;
+}
+.nav_item {
+  display: inline;
+  width: 300px;
+  padding: 90px;
+  color: pink;
+    text-align: center;
+}
+
+.container {
+    display: center;
+}
+#text{
+  color: blue ;
+  border-radius: 20px;
+  background: rgba(255,255,255, 0.4);
+  position: relative;
+  text-align: center;
+  font-size: 60px;
+  width: 1000px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+#imagen1 {
+  border: 2px solid pink;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1080px;
+}
+h1 {
+  font-family: 'Brush Script MT', cursive;
+  border-radius: 30px;
+  top: 40%;
+}
+#nav_bar {
+  background: rgba(255,255,255, 0.4);
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  text-align: center;
+}
+.nav_item {
+  display: inline;
+  width: 300px;
+  padding: 90px;
+  color: pink;
+}
+.container {
+    display: center;
+    border: 2px solid snow;
+}
+#all {
+  padding: 10%;
+  background: url(https://img.freepik.com/foto-gratis/estrellas-galaxia-fondo-cielo-espacio-exterior_146539-2211.jpg);
+  background-position: center;
+    background-size: cover;
+  
+}
+
+/* animacion hobbies */
+h2 {
+  font-family: 'Candara', cursive;
+}
+.animacion{
+  font-size: 2em;
+  width: 480px;
+  min-height: 100px;
+  padding: 7px;
+  margin: 10px auto;
+  text-align: center;
+  border-radius: 20px;
+  animation-fill-mode: forwards;
+  animation: color-change 0.2s infinite;
+  display: inline-block;
+    transform: translate(45%,5%);
+}
+@keyframes color-change {
+  
+  20%{
+    color: red;
+    background: black;
+  }
+  40%{
+    color: purpule;
+    background: white;
+  }
+  60%{
+    color: blue;
+    background: yellow;
+  }
+  80%{
+    color: green;
+    background: orange;
+  }
+  100%, 0%{
+    color: yellow;
+    background: blue;
+  }
+
+}
+/* galeria de los 2 cuadros de Series y peliculas */
+.gallery {
+  display: flex;
+
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gallery-item {
+  margin: 20px;
+}
+
+.gallery-item .thumbnail1 {
+ justify-content: center;
+  font-family: 'Monaco';
+    text-align: center;
+  background: rgb(248, 209, 34, 0.1);
+  width: 200px;
+  border: 2px rgb(218, 223, 152);
+  border-radius: 10px;
+   color: rgba(6, 230, 230, 0.4);
+    padding: 120px;
+    height:fit-content; 
+    text-align: center;
+    margin:0;
+    font-size:50px ;
+    text-decoration: none;
+    color: rgb(231, 14, 14);
+    cursor:pointer;
+ 
+  }
+ .gallery-item .thumbnail1:hover{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNTzNNWL7-bcBIr1oHs5aQgKifIX8vPjScGyBXy8P2s6fDXlkGklDtKdC7lU7UFDCjenQ&usqp=CAU);
+    color: rgb(231, 14, 14);
+    cursor:pointer;
+  }
+.gallery-item .thumbnail2 {
+ justify-content: center;
+  font-family: 'Monaco';
+    text-align: center; 
+  background: rgb(248, 209, 34, 0.1);
+  width: 200px;
+  border: 2px solid black;
+  border-radius: 10px;
+   color: rgba(51, 75, 184, 0.973);
+    padding: 120px;
+    height:fit-content; 
+    text-align: center;
+    font-size:50px ;
+    text-decoration: none;
+    color: rgb(231, 14, 14);
+    cursor:pointer;
+  text-decoration: none;
+  }
+ .gallery-item .thumbnail2:hover{
+    background: url(https://cinepremiere.com.mx/assets/images/listasdecine/2013/02-febrero/c-remakes.jpg);
+    color: rgb(231, 14, 14);
+    cursor:pointer;
+  }
+}/*Series */
+#h2series{
+  font-family: 'Verdana', cursive;
+  position: relative;
+  text-align: left;
+  font-size: 550%;
+  left: 1%;
+  color: white;
+background:red;
+  width: 480px;
+}
+h4{
+  font: menu;
+  position: relative;
+  text-align: center;
+  font-size: 550%;
+  left: 6%;
+  color: white;
+background:red;
+  width: 409px;
+  border-radius: 10px;
+}
+#imagen3 {
+  border: 2px solid pink;
+  padding: 5%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1080px;
+}
+/* menu de opciones de series */
+#series_bar {
+  border-radius: 20px;
+  background: rgba(255,255,255, 0.4);
+  text-align: center;
+  font-size: 50px;
+  width: 580px;
+  left:30%;
+  padding: 10px;
+}
+.series_item1{
+  text-align: left;
+  width: 300px;
+  padding: 90px;
+}
+.series_item1:hover{
+    background: rgba(0, 0, 0, 0.8) ;
+    color: rgb(231, 14, 14);
+    cursor:pointer;
+   width: 300px;
+  left:60%;
+   border-radius: 20px;
+  background:url(https://cdn-elepm.nitrocdn.com/jRGmiFYiTWLKHJqLhjMAeBpWWbwwCFbZ/assets/static/optimized/rev-64f7aa4/wp-content/uploads/2020/01/Streaming-Wars-Ecuador.png);
+  }
+.series_item2{
+  text-align: left;
+  width: 300px;
+  padding: 90px;
+}
+.series_item2:hover{
+    background: rgba(0, 0, 0, 0.8) ;
+    color: rgb(231, 14, 14);
+    cursor:pointer;
+   width: 300px;
+  left:60%;
+   border-radius: 20px; background:url(https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2015/10/129789-mejores-paginas-descargar-subtitulos-series-peliculas-espanol.jpg);
+  }
+.series_item3{
+  text-align: left;
+  width: 300px;
+  padding: 90px;
+  
+}
+.series_item3:hover{
+    background: rgba(0, 0, 0, 0.8) ;
+    color: rgb(231, 14, 14);
+    cursor:pointer;
+   width: 300px;
+  left:60%;
+   border-radius: 20px; background:url(https://cdn1.eldia.com/102019/1571721151155.jpg?&cw=630);
+  }
+/*Entramos al apartado de streaming */
+#container2{
+}
+#imagenestreaming {
+  border: 2px;
+  padding: 5%;
+  background: url(https://files.merca20.com/uploads/2017/06/series-tv.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  width: auto;
+}
+.streamrecomend {
+  position: relative;
+  text-align: center;
+  font-family: 'Yellowtail', cursive;
+  font-size:300%;
+  color: rgb(5, 153, 30);
+  background:rgb(0, 0, 0,0.6);
+  width: 400px;
+  left: 30%;
+  border-radius: 20px;
+}
+/* Sinopsis del anime*/
+
+.stream_item1{
+  font-size: 2em;
+  text-align: right;
+  font-family: 'Yellowtail', cursive;
+  color: rgb(250, 21, 231);
+  transform: translate(-30%,-30%,30%);
+  display: inline;
+  height: 20px;
+  padding: 30px;
+   margin: 65px;
+  background: rgba(0,0,0, 0.8);
+   border-radius: 15px;
+}
+#stream_img {
+  height: 180px;
+  width: auto;
+  transform: translate(40%,50%,60%);
+  margin: 15px;
+  display: inline;
+  position: center;
+}
+.stream_text1{
+  color: white;
+  border-radius: 20px;
+  background: rgba(0,0,0, 0.8);
+  text-align: justify;
+  font-size: 20px;
+  width: 250px;
+  top: 40%;
+  pading-left:50px;
+   margin: 35px;
+display: inline-flex;
+    transform: translate(40%,50%,60%);
+}
+.stream_text2{
+  color: white;
+  border-radius: 20px;
+  background: rgba(0,0,0, 0.8);
+  text-align: justify;
+  font-size: 20px;
+  width: 250px;
+  pading-left:50px;
+   margin: 40px;
+display: inline-flex;
+}
+.stream_text3{
+  color: white;
+  border-radius: 20px;
+  background: rgba(0,0,0, 0.8);
+  text-align: justify;
+  font-size: 20px;
+  width: 250px;
+  top: 40%;
+  pading-left:50px;
+    margin: 40px;
+display: inline-flex;
+  left:70%;
+}
+.recom_item {
+  font-size: 2em;
+  text-align: right;
+  font-family: 'Yellowtail', cursive;
+  color: rgb(250, 21, 231);
+  display: inline;
+  height: 80px;
+  padding: 90px;
+  margin: 6px;
+}
+.pirata_item1{
+  font-size: 2em;
+  text-align: right;
+  font-family: 'Yellowtail', cursive;
+  color: rgb(250, 21, 231);
+  transform: translate(-30%,-30%,30%);
+  display: inline;
+  height: 80px;
+  padding: 90px;
+    margin: 10px;
+    background: rgba(0, 0, 0, 0.8) 
+}
+
+.pirata_item1:hover{
+    background: rgba(0, 0, 0, 0.8) ;
+    color: rgb(231, 14, 14);
+    cursor:pointer;
+   width: 300px;
+  left:60%;
+   border-radius: 20px; background:url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/IU3NTNB6B5FKDHEEKCC4I4BGH4.jpg);
+      background-size: cover;
+  }
+.pirata_item2{
+  color: rgb(231, 14, 14);
+  font-size: 2em;
+  text-align: right;
+  font-family: 'Yellowtail', cursive;
+  color: rgb(250, 21, 231);
+  transform: translate(-30%,-30%,30%);
+  display: inline;
+  height: 80px;
+  padding: 90px;
+  background: rgba(0, 0, 0, 0.8) ;
+  margin: 10px;
+}
+.pirata_item2:hover{
+    background: rgba(0, 0, 0, 0.8) ;
+    color: rgb(231, 14, 14);
+    cursor:pointer;
+   width: 300px;
+  left:60%;
+   border-radius: 20px; background:url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/IU3NTNB6B5FKDHEEKCC4I4BGH4.jpg);
+      background-size: cover;
+  }
+.pirata_item3{
+  color: rgb(231, 14, 14);
+  font-size: 2em;
+  text-align: right;
+  font-family: 'Yellowtail', cursive;
+  color: rgb(250, 21, 231);
+  transform: translate(-30%,-30%,30%);
+  display: inline;
+  height: 80px;
+  padding: 90px;
+  background: rgba(0, 0, 0, 0.8) ;
+  margin: 10px;
+}
+.pirata_item3:hover{
+    background: rgba(0, 0, 0, 0.8) ;
+    color: rgb(231, 14, 14);
+    cursor:pointer;
+   width: 300px;
+  left:60%;
+   border-radius: 20px; background:url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/IU3NTNB6B5FKDHEEKCC4I4BGH4.jpg);
+      background-size: cover;
+  }
+hm{
+  font: menu;
+  position: relative;
+  text-align: center;
+  font-size: 550%;
+  left: 6%;
+  color: white;
+background:red;
+  width: 409px;
+  border-radius: 10px;
+}
+#imagen3 {
+  border: 2px solid pink;
+  padding: 5%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1080px;
+}
+/* menu de opciones de series */
+#movies_bar {
+  border-radius: 20px;
+  background: rgba(255,255,255, 0.4);
+  text-align: center;
+  font-size: 50px;
+  width: 580px;
+  left:30%;
+  padding: 10px;
+}
+.movies_item1{
+  text-align: left;
+  width: 300px;
+  padding: 90px;
+}
+.movies_item1:hover{
+    background: rgba(0, 0, 0, 0.8) ;
+    color: rgb(231, 14, 14);
+    cursor:pointer;
+   width: 300px;
+  left:60%;
+   border-radius: 20px;
+  background:url(https://cdn-elepm.nitrocdn.com/jRGmiFYiTWLKHJqLhjMAeBpWWbwwCFbZ/assets/static/optimized/rev-64f7aa4/wp-content/uploads/2020/01/Streaming-Wars-Ecuador.png);
+  }
+.movies_item2{
+  text-align: left;
+  width: 300px;
+  padding: 90px;
+}
+.movies_item2:hover{
+    background: rgba(0, 0, 0, 0.8) ;
+    color: rgb(231, 14, 14);
+    cursor:pointer;
+   width: 300px;
+  left:60%;
+   border-radius: 20px; background:url(https://www.bolsamania.com/cine/wp-content/uploads/2015/05/491.jpg);
+  }
+.movies_item3{
+  text-align: left;
+  width: 300px;
+  padding: 90px;
+  
+}
+.movies_item3:hover{
+    background: rgba(0, 0, 0, 0.8) ;
+    color: rgb(231, 14, 14);
+    cursor:pointer;
+   width: 300px;
+  left:60%;
+   border-radius: 20px; background:url(https://cdn1.eldia.com/102019/1571721151155.jpg?&cw=630);
+  }
+/*Entramos al apartado de streaming */
+#container5{
+}
+#imagenestreaming2 {
+  border: 2px;
+  padding: 5%;
+  background: url(https://www.chismestoday.com/wp-content/uploads/2020/06/nominados-mejor-poster-2019-josssy-1200x752.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  width: auto;
+}
+.streamrecomend {
+  position: relative;
+  text-align: center;
+  font-family: 'Yellowtail', cursive;
+  font-size:300%;
+  color: rgb(5, 153, 30);
+  background:rgb(0, 0, 0,0.6);
+  width: 400px;
+  left: 30%;
+  border-radius: 20px;
+}
+/* Sinopsis del anime*/
+
+.moviesstream_item {
+  font-size: 2em;
+  text-align: right;
+  font-family: 'Yellowtail', cursive;
+  color: rgb(250, 21, 231);
+  transform: translate(-30%,-30%,30%);
+  display: inline-block;
+  height: 30px;
+  padding: 30px;
+   margin: 30px;
+  background: rgba(0,0,0, 0.8);
+   border-radius: 15px;
+}
+#moviesstream_img {
+  height: 170px;
+  width: auto;
+  transform: translate(40%,50%,60%);
+  margin: 15px;
+  display: inline;
+  position: center;
+   border:15px;
+}
+.stream_link1{
+ color: white;
+  border-radius: 20px;
+  background: rgba(0,0,0, 0.8);
+  text-align: justify;
+  font-size: 20px;
+  width: 250px;
+  top: 40%;
+   margin: 40px;
+display: inline-block;
+    transform: translate(40%,50%,60%);
+}
+.stream_link2{
+  color: white;
+  border-radius: 20px;
+  background: rgba(0,0,0, 0.8);
+  text-align: justify;
+  font-size: 20px;
+  width: 250px;
+  top: 40%;
+   margin: 35px;
+display: inline-block;
+    transform: translate(40%,50%,60%);
+}
+.stream_link3{
+ color: white;
+  border-radius: 20px;
+  background: rgba(0,0,0, 0.8);
+  text-align: justify;
+  font-size: 20px;
+  width: 250px;
+  top: 40%;
+     margin: 25px;
+display: inline-block;
+}
